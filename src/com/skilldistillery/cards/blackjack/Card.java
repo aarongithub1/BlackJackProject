@@ -28,7 +28,6 @@ public class Card {
 		this.value = value;
 	}
 
-
 	public Rank getRank() {
 		return rank;
 	}
@@ -47,7 +46,7 @@ public class Card {
 		builder.append(rank);
 		builder.append(" of ");
 		builder.append(suit);
-		builder.append(" is in slot " + value + " of the ENUM");
+		builder.append(" Card value is " + rank.getValue());
 		return builder.toString();
 	}
 	
