@@ -32,6 +32,10 @@ public class Dealer {
 	public void showTopCard() {
 		System.out.println(hand.getHand().get(1));
 	}
+	
+	public void hitPlayer() {
+		
+	}
 
 //	public int currentCardValue() {
 //		return hand.calculateHandValue();
