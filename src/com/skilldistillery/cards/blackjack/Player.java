@@ -22,5 +22,10 @@ public class Player {
 	public Hand getHand(){
 		return hand;
 	}
+	
+	public void makeNewHand() {
+		hand = new Hand();
+		
+	}
 
 }

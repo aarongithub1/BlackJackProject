@@ -33,8 +33,12 @@ public class Dealer {
 		System.out.println(hand.getHand().get(1));
 	}
 	
-	public void hitPlayer() {
-		
+	public void makeNewHand() {
+		hand = new Hand();
+	}
+	
+	public int checkDeckSize() {
+		return deck.getDeck().size();
 	}
 
 //	public int currentCardValue() {

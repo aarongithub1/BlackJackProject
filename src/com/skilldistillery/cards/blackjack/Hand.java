@@ -17,7 +17,7 @@ public class Hand {
 	public void addCard(Card card) {
 		hand.add(card);
 	}
-
+	
 	public void showHand() {
 		System.out.println(hand);
 	}
