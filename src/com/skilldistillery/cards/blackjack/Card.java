@@ -46,7 +46,7 @@ public class Card {
 		builder.append(rank);
 		builder.append(" of ");
 		builder.append(suit);
-		builder.append(" Card value is " + rank.getValue());
+		builder.append(" ( card value: (" + rank.getValue() + ") )");
 		return builder.toString();
 	}
 	
